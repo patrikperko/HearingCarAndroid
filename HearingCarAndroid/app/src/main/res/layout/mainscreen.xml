@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/skillScreen"
+
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/backgroundimage"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/triggerRightHornWarning"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:text="RH"
+        android:textAllCaps="false"
+        android:textColor="@color/steel_blue"
+        android:textSize="25dp" />
+
+
+    <Button
+        android:id="@+id/triggerLeftHornWarning"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+
+        android:text="LH"
+        android:textAllCaps="false"
+        android:textColor="@color/steel_blue"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/triggerLeftSirenWarning"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+
+        android:layout_alignEnd="@+id/triggerLeftHornWarning"
+        android:layout_alignRight="@+id/triggerLeftHornWarning"
+        android:layout_below="@+id/triggerLeftHornWarning"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:text="LS"
+        android:textAllCaps="false"
+        android:textColor="@color/steel_blue"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/triggerRightSirenWarning"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/triggerRightHornWarning"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:text="RS"
+        android:textAllCaps="false"
+        android:textAppearance="@android:style/TextAppearance.Holo"
+        android:textColor="@color/steel_blue"
+        android:textSize="25dp" />
+
+</RelativeLayout>
