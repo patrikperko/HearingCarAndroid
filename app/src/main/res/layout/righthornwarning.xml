@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/skillScreen"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/warning"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/hornLabel"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/hkmediumlegacy"
+        android:text="Horn At Right"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="50dp" />
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_below="@+id/hornLabel"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/whitearrowright" />
+
+
+</RelativeLayout>
